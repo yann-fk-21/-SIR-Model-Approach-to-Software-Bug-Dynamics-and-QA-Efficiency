@@ -42,6 +42,26 @@ Systemic Instability: An $R_0$ indicator consistently above the critical thresho
 
 Stability Threshold: Propagation only ceases when the density of susceptible modules falls below $1/R_0$ (approximately 42%).
 
+### Visualization of Results
+
+**Figure 1: Evolution of Infection and Recovery Rates**
+
+![Infection and Recovery Rates](visualization/infections_recovery_plot.png)
+
+This figure illustrates the temporal evolution of the infection rate ($\beta$) and recovery rate ($\gamma$) throughout the software development lifecycle. The analysis reveals the critical imbalance between bug propagation and resolution capabilities.
+
+**Figure 2: Basic Reproduction Number (R0) Evolution**
+
+![R0 Evolution](visualization/r0_evolution_plot.png)
+
+The basic reproduction number $R_0 = \beta / \gamma$ tracks the stability of the software system. Values above 1 indicate an unstable system where bugs are spreading faster than they can be resolved, while values below 1 indicate a stable state where QA teams maintain control.
+
+**Figure 3: Relationship between 1/R0 and S/N**
+
+![1/R0 and S/N Evolution](visualization/r0_susceptible_by_N.png)
+
+This figure demonstrates the critical relationship between the inverse reproduction number ($1/R_0$) and the susceptible ratio ($S/N$). The stability threshold condition $S/N < 1/R_0$ defines when bug propagation can be controlled by the QA team.
+
 🛠️ Technologies & Tools
 
 Language: Python

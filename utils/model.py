@@ -52,13 +52,3 @@ class SIRModel:
             gamma = np.nan  
         self.recovery_rates.append(gamma)
         return gamma
-
-
-
-def main():
-    print("Hello from small-research-project-1-sir!")
-
-
-
-if __name__ == "__main__":
-    main()
