@@ -140,7 +140,7 @@ def plot_inverse_r0_and_susceptible_ratio(days, infection_rates, recovery_rates,
     ax.axhline(1, ls='--', color='black', alpha=0.5, linewidth=2.5, 
                label='Critical Threshold (1/R0 = 1)')
     
-    ax.set_title(r'Évolution de $\frac{1}{R_{0}}$ et de $\frac{S}{N}$ dans le temps', 
+    ax.set_title(r'Evolution of $\frac{1}{R_{0}}$ and $\frac{S}{N}$ over time', 
                  fontsize=18, fontweight='bold', pad=20)
     ax.set_xlabel('Project Duration (Days)', fontweight='bold', fontsize=16)
     ax.set_ylabel('Value', fontweight='bold', fontsize=16)
