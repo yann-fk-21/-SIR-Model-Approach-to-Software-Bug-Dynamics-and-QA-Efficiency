@@ -36,7 +36,6 @@ class SIRModel:
         return dS_dt, dI_dt, dR_dt
     
     def compute_beta(self, S, I, N, dS_dt):
-        """Calcule beta et l'ajoute toujours à la liste pour maintenir la cohérence des longueurs."""
         if S > 0 and I > 0:
             beta = -(N * dS_dt) / (S * I)
         else:
@@ -45,7 +44,6 @@ class SIRModel:
         return beta
     
     def compute_gamma(self, I, dR_dt):
-        """Calcule gamma et l'ajoute toujours à la liste pour maintenir la cohérence des longueurs."""
         if I > 0:
             gamma = dR_dt / I
         else:
