@@ -1,8 +1,12 @@
-A SIR Model Approach to Software Bug Dynamics and QA Efficiency
+## A SIR Model Approach to Software Bug Dynamics and QA Efficiency
 
 This research project explores the application of epidemiological compartmental models (SIR) to the field of software engineering, specifically to analyze bug propagation and the effectiveness of Quality Assurance (QA) teams.
 
-📊 Project Overview
+📄 **Full Research Paper**: [Download PDF](paper.pdf)
+
+For a comprehensive analysis of the methodology, results, and theoretical framework, please refer to the complete research paper.
+
+### 📊 Project Overview
 
 As modern software systems grow in complexity, defect management has become critical. This work transposes the mathematical framework of Kermack and McKendrick to:
 
@@ -12,7 +16,7 @@ Mathematically evaluate the performance of maintenance teams through the resolut
 
 Identify systemic instability phases using the basic reproduction number ($R_0$).
 
-🧮 Methodology
+### 🧮 Methodology
 
 The software system is modeled through three mutually exclusive states:
 
@@ -32,7 +36,7 @@ $$\frac{dR}{dt} = \gamma I$$
 
 Where $\beta$ represents the transmission rate (software complexity) and $\gamma$ represents the resolution rate (team efficiency).
 
-📈 Key Results
+### 📈 Key Results
 
 Simulations conducted on a synthetic dataset reveal:
 
@@ -62,7 +66,7 @@ The basic reproduction number $R_0 = \beta / \gamma$ tracks the stability of the
 
 This figure demonstrates the critical relationship between the inverse reproduction number ($1/R_0$) and the susceptible ratio ($S/N$). The stability threshold condition $S/N < 1/R_0$ defines when bug propagation can be controlled by the QA team.
 
-🛠️ Technologies & Tools
+### 🛠️ Technologies & Tools
 
 Language: Python
 
@@ -70,7 +74,7 @@ Simulation: Pandas, NumPy
 
 Visualization: Matplotlib
 
-📚 References
+### 📚 References
 
 J.O. Kephart and S.R. White. "Directed-graph epidemiological models of computer viruses". IEEE, 1991.
 
