@@ -2,7 +2,7 @@
 
 This research project explores the application of epidemiological compartmental models (SIR) to the field of software engineering, specifically to analyze bug propagation and the effectiveness of Quality Assurance (QA) teams.
 
-📄 **Full Research Paper**: [Download PDF](paper.pdf)
+📄 **Full Research Report**: [Download PDF](paper.pdf)
 
 For a comprehensive analysis of the methodology, results, and theoretical framework, please refer to the complete research paper.
 
